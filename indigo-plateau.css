@@ -1,0 +1,59 @@
+/*
+ * Indigo Plateau
+ * A WordPress plugin for ranking applications.
+*/
+
+#tabela-ranking {
+	width: 77.333333333%;
+	margin: auto;
+
+	table {
+		width: 100%;
+		margin: 10px 0 10px 0;
+		border-collapse: collapse;
+	}
+
+	tr:nth-child(odd) {
+		background-color: #F3F3F3;
+	}
+
+	th,
+	td {
+		padding: 10px 0 10px 0;
+		text-align: center;
+	}
+
+	th {
+		background-color: #D5D5D5;
+		font-size: 1.2em;
+	}
+}
+
+div.ip-ranking {
+  width: 95%;
+  margin: auto;
+}
+
+/* Player's names. */
+div.ip-ranking h3 {
+  margin-bottom: 0;
+}
+
+/* Player's total points. */
+div.ip-ranking h3 small {
+
+}
+
+/* Player's history. */
+div.ip-ranking ul {
+
+}
+
+/* An entry from a player's history. */
+div.ip-ranking ul li {
+
+}
+
+div.ip-ranking ul li span {
+  padding-right: 10px;
+}
